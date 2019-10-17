@@ -13,7 +13,7 @@ suite.addTest(TestEmployee("test_emp_add"))
 suite.addTest(TestEmployee("test_emp_update"))
 suite.addTest(TestEmployee("test_emp_get"))
 suite.addTest(TestEmployee("test_emp_delete"))
-# 执行套件对象
+# 执行套件对象----
 with open("./report/report.html","wb") as f:
     runner = HTMLTestRunner(f,title="我的测试报告",description="版本 v1.0")
     runner.run(suite)
